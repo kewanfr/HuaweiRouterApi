@@ -1,0 +1,23 @@
+{
+  "name": "huaweirouterapi",
+  "version": "1.0.0",
+  "description": "Simple script using Huawer API",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kewanfr/HuaweiRouterApi.git"
+  },
+  "author": "kewanb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kewanfr/HuaweiRouterApi/issues"
+  },
+  "homepage": "https://github.com/kewanfr/HuaweiRouterApi#readme",
+  "dependencies": {
+    "@p4d/huawei-router": "^2.0.0",
+    "dotenv": "^16.0.1"
+  }
+}
