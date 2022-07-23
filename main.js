@@ -14,7 +14,7 @@ var networkType = {
 router.getStatus().then((data) => {
   var result = {
     Signal: data.SignalIcon,
-    NetworkType: networkType[data.CurrentNetworkType],
+    NetworkType: networkType[data.CurrentNetworkType] || "Aucun service",
     datas: data
   }
   console.log(JSON.stringify(result));
