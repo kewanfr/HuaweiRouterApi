@@ -7,8 +7,8 @@ router.setPassword(process.env.PASSWORD)
 
 var networkType = {
   0: "Aucun Service",
-  3: "3G",
   4: "3G",
+  9: "3G",
   19: "4G",
 }
 
